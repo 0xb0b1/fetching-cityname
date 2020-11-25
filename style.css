@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap');
+
 html {
     box-sizing: border-box;
     background: #ffc600;
-    font-family: 'helvetica neue';
+    font-family: 'Exo 2';
     font-size: 1.25rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 *, *:before, *:after {
@@ -21,6 +23,7 @@ input {
 }
 
 input.search {
+    font-family: "Exo 2";
     margin: 0;
     text-align: center;
     outline: 0;
@@ -46,7 +49,7 @@ input.search {
     list-style: none;
     border-bottom: 1px solid #D8D8D8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
-    margin: 0;
+    margin: 0px;
     padding: 20px;
     transition: background: 0.2s;
     display: flex;
